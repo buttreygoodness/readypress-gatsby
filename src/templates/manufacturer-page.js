@@ -129,7 +129,7 @@ ManufacturerPageTemplate.propTypes = {
   }),
 }
 
-const ProductPage = ({ data }) => {
+const ManufacturerPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
@@ -147,7 +147,7 @@ const ProductPage = ({ data }) => {
   )
 }
 
-ProductPage.propTypes = {
+ManufacturerPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
@@ -155,10 +155,10 @@ ProductPage.propTypes = {
   }),
 }
 
-export default ProductPage
+export default ManufacturerPage
 
-export const productPageQuery = graphql`
-  query ProductPage($id: String!) {
+export const ManufacturerPageQuery = graphql`
+  query manufacturerPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
