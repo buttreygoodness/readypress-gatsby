@@ -5,6 +5,9 @@ image: /img/flavor_wheel.jpg
 heading: Arktura
 description: Arktura Description
 intro:
+  blurbs:
+    - image: /img/products-grid1.jpg
+      text: asdf
   heading: Arktura
   description: >-
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
