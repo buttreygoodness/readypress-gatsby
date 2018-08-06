@@ -62,6 +62,12 @@ main:
     non
 
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  image1:
+    image: /img/coffee-gear.png
+  image2:
+    image: /img/meeting-space.png
+  image3:
+    image: /img/meeting-space.png
 testimonials:
   - author: Hello
     quote: Quote
